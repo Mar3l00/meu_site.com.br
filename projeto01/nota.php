@@ -6,7 +6,9 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="calcula_nota.php" method="post">
+    <form action="calc_nota.php" method="post">
+        <label>Materia</label>
+        <input type="materia" name="Diciplina" required><br>
         <label>Nota:</label><br>
         <input type="number" name="nota" required>
         <button type="submit">Enviar</Button>
